@@ -43,7 +43,7 @@ class Window(Tk):
         self.label_converted_file_name.place(relx=0, rely=0.1)
         self.entry_converted_file_name = Entry()
         self.entry_converted_file_name.place(relx=0, rely=0.15)
-        self.entry_converted_file_name.insert(0, "Test Name")
+        self.entry_converted_file_name.insert(0, "Test Name1")
 
         self.btn_create_particle = ttk.Button(text="Выбрать файл и конвертировать", command=self.choose_file)
         self.btn_create_particle.place(relx=0.8, rely=0.8)
